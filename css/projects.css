@@ -1,0 +1,7 @@
+.profile-pic {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  transition-duration: 1s;
+}

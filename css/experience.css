@@ -1,0 +1,83 @@
+.profile-pic {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  transition-duration: 1s;
+}
+
+.experience-card {
+  width: 50%;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 0 5rem 0 0rem 5rem;
+}
+
+.experience-heading {
+  display: block;
+  position: relative;
+  margin-bottom: 3rem;
+}
+.experience-heading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 10px;
+  width: 4px;
+  background-color: var(--btn-bg-color);
+  left: -1rem;
+}
+
+.experience-content {
+  margin-left: 8%;
+  position: relative;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.experience-content > div {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  box-shadow: 3px 5px 34px -2px rgba(36, 36, 36, 0.15);
+  -webkit-box-shadow: 3px 5px 34px -2px rgba(36, 36, 36, 0.15);
+  -moz-box-shadow: 3px 5px 34px -2px rgba(36, 36, 36, 0.15);
+}
+
+.experience-content::before {
+  content: " ";
+  width: 2px;
+  background-color: var(--secondary-text-color);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: -4rem;
+}
+
+.experience-content::after {
+  content: " ";
+  width: 16px;
+  height: 16px;
+  background-color: var(--secondary-text-color);
+  position: absolute;
+  bottom: 0;
+  top: 2rem;
+  left: -4.4rem;
+  background-color: var(--bg);
+  border: 2px solid var(--primary-text-color);
+  border-radius: 50%;
+}
+
+.experience-subheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul > li {
+  padding: 0.2rem;
+  margin-left: 1rem;
+}
+
+.experience-subdetails {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}

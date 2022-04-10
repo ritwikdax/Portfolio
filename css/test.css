@@ -1,0 +1,19 @@
+
+
+.test div{
+    width: calc(100%/3);
+    float: left;
+}
+.a{
+    background-color: fuchsia;
+
+}
+
+.b{
+    background-color: aqua;
+
+}
+
+.c{
+    background-color: blueviolet;
+}

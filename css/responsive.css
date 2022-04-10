@@ -1,0 +1,45 @@
+@media screen and (max-width: 1600px) {
+  .card-large {
+    width: 90%;
+  }
+
+  .cmd {
+    width: 80%;
+  }
+
+  .hero-sub-content {
+    width: 60%;
+  }
+  .experience-card {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-content {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .hero-sub-content {
+    width: 100%;
+  }
+
+  .cmd {
+    width: 100%;
+  }
+
+  .cmd-skill {
+    flex-direction: column;
+  }
+
+  .skill-item {
+    width: 100%;
+  }
+
+  .align-horizontal {
+    flex-direction: column;
+  }
+}
+
+/*-------Experience----------*/
