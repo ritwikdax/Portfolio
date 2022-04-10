@@ -9,15 +9,4 @@
 .about-content {
   width: 80%;
   margin: auto;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: auto auto auto auto;
-  gap: 1rem;
-}
-
-.custom-card {
-  padding: 1rem;
-  width: 25rem;
-  background-color: var(--card-bg);
-  border-radius: 0.5rem;
 }
