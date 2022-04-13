@@ -7,6 +7,14 @@
 }
 
 .about-content {
+  padding-top: 5rem;
   width: 80%;
+  margin: auto;
+}
+
+.about-content > p {
+  text-align: center;
+  padding-top: 2rem;
+  width: 70%;
   margin: auto;
 }

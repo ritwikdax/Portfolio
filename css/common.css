@@ -12,18 +12,6 @@ header {
   position: relative;
 }
 
-.logo-text::before {
-  content: "";
-  width: 2.5rem;
-  background-color: var(--btn-bg-color);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -0.5rem;
-  z-index: -1;
-  border-radius: 0.5rem;
-}
-
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -121,6 +109,29 @@ nav ul li {
   width: 200px;
   height: 200px;
   transition-duration: 1s;
+  position: relative;
+}
+.pp {
+  position: relative;
+  cursor: pointer;
+}
+.pp::after {
+  content: "Open To Work..";
+  background-color: aqua;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  z-index: 1;
+  border-radius: 2rem 2rem 0rem 2rem;
+  padding: 1rem;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+}
+.pp:hover::after {
+  visibility: visible;
+  transition-duration: 0.5s;
+  opacity: 1;
 }
 
 .profile-pic:hover {
