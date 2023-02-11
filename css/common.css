@@ -426,3 +426,13 @@ nav ul li {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+.footer{
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 600;
+
+}
